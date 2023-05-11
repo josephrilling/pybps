@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "bps.html",
+    "href": "bps.html",
+    "title": "BPS",
+    "section": "",
+    "text": "We will define a class BPS(). This class has two methods: fit and predict. Fit does the brunt of the work, and predict depends on the resutlts from fit. Once, the model is fit, the predict step returns a list of the [mean, variance, degrees of freedom] of the T+1 prediction\n\nsource\n\nBPS\n\n BPS (y:list, a_j:TbyJmatrix, A_j:TbyJmatrix, n_j:TbyJmatrix, delta:list,\n      m_0:list, C_0:JbyJmatrix, n_0:list, s_0:float, burn_in:int,\n      mcmc_iter:int)\n\nBayesian Predictive Synthesis: A latent ensemble forecasting method\n\n\n\n\nType\nDetails\n\n\n\n\ny\nlist\nThe true values\n\n\na_j\nT by J matrix\nEach agent’s predicted mean\n\n\nA_j\nT by J matrix\nEach agent’s predicted variance\n\n\nn_j\nT by J matrix\nEach agent’s predicted degrees of freedom\n\n\ndelta\nlist\nDiscount factor on [state, observation]\n\n\nm_0\nlist\nPrior for coefficients of agent’s\n\n\nC_0\nJ by J matrix\nPrior for covariance of agent’s\n\n\nn_0\nlist\nPrior for degrees of freedom\n\n\ns_0\nfloat\nPrior for observation variance\n\n\nburn_in\nint\nIterations for burn in\n\n\nmcmc_iter\nint\nIterations to keep"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "pybps",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "pybps",
+    "section": "Install",
+    "text": "Install\npip install pybps"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "pybps",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  }
+]
