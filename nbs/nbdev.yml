@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "pybps"
+  site-url: "https://josephrilling.github.io/pybps"
+  description: "A python implementation of Bayesian Predictive Synthesis"
+  repo-branch: main
+  repo-url: "https://github.com/josephrilling/pybps"
