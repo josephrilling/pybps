@@ -3,5 +3,3 @@ website:
     contents:
       - index.ipynb
       - 00_BPS.ipynb
-      - BPS.ipynb
-      - Untitled.ipynb
