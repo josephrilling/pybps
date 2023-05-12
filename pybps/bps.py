@@ -3,7 +3,7 @@
 # %% auto 0
 __all__ = ['BPS']
 
-# %% ../nbs/00_BPS.ipynb 5
+# %% ../nbs/00_BPS.ipynb 4
 class BPS:
     "Bayesian Predictive Synthesis: A latent ensemble forecasting method"
     
@@ -31,7 +31,7 @@ class BPS:
         self.burn_in = burn_in
         self.mcmc_iter = mcmc_iter
     def fit(self):
-        
+                
         def std_var(x):
             return (x + np.transpose(x))/2
 
